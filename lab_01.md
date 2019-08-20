@@ -57,6 +57,7 @@ Resources:
 
 * Official documentation [here](https://bitcoin.org/en/developer-examples).  
 * Config file generator [here](https://jlopp.github.io/bitcoin-core-config-generator).
+* Compile from source [here](https://bitzuma.com/posts/compile-bitcoin-core-from-source-on-ubuntu/).
 
 
 ### Bitcoin commands
