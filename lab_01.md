@@ -57,3 +57,43 @@ Resources:
 
 * Official documentation [here](https://bitcoin.org/en/developer-examples).  
 * Config file generator [here](https://jlopp.github.io/bitcoin-core-config-generator).
+
+
+### Bitcoin commands
+
+* Start regtest:
+```
+bitcoind -regtest -daemon
+```
+
+* Get general information :
+```
+bitcoin-cli -regtest getblockchaininfo
+```
+
+* Get network information:
+```
+bitcoin-cli -regtest getnetworkinfo
+```
+
+* Get connected peers information:
+```
+bitcoin-cli -regtest getpeerinfo
+```
+
+* Add specific node:
+```
+bitcoin-cli -regtest addnode "[ip address]" "add"
+```
+
+* Mine *n* blocks:
+```
+bitcoin-cli -regtest generate [n]
+```
+
+
+
+
+
+
+
